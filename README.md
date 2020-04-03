@@ -1,5 +1,5 @@
-# DD
-### 功能：爬取bilibili上部分vtuber基本信息
+# DD_xinxi
+### 功能：爬取bilibili上部分vtuber基本信息，基于命令行
 ### 依赖：requests库
 ```
 pip install requests
