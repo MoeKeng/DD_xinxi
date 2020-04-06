@@ -86,7 +86,7 @@ class DD_xinxi():
             find_uid = 1
             user_set_id = input("请输入删除的名称：")
             user_set_uid = int(input("请输入要删除的预选项："))
-            if user_set_uid <= 0:
+            if user_set_uid <= 8:
                 print("无法删除此预选")
             elif user_set_uid > 0:
                 for key,value in self.DDcf.items("def_xinxi"):
