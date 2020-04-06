@@ -107,7 +107,8 @@ class DD_xinxi():
 
 
     def get_meau(self):
-        for key,value in self.DDcf.items('def_meau'):
+        meau = sorted(self.DDcf.items("def_meau"),key=lambda item:item[0], reverse=False)
+        for key,value in meau:
             print(str(key)+"\t\t"+str(value)) #打印目录
 
 if __name__ == "__main__":
