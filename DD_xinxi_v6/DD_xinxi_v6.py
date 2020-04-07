@@ -105,8 +105,7 @@ class DD_xinxi():
                     self.DDcf.set("def_meau","-1","菜单")
                     self.DDcf.set("def_meau","-2","查询其他uid")
                     self.DDcf.set("def_meau","-3","添加预选")
-                    self.DDcf.set("def_meau","-4","修改预选")
-                    self.DDcf.set("def_meau","-5","重设预选")
+                    self.DDcf.set("def_meau","-4","重设预选")
                     with open(configPath,'w+',encoding="utf-8-sig") as f:
                         self.DDcf.write(f)
                     print("重设成功")
